@@ -1,4 +1,5 @@
-# jpa-graph-extraction-no-pagination
+# persistence-graph-extraction-jpa
+
 Demonstrates how to assemble an object graph from a relational database using JPA entities and Blaze Persistence Entity Views without ORM magic or pagination.
 
 ## What it shows
@@ -70,12 +71,12 @@ Integration tests in `src/test/java` cover graph assembly, flat list extraction,
 
 ## Related
 
-* [jdbc-graph-extraction-no-pagination](https://github.com/persistence-graph-extraction/jdbc-graph-extraction-no-pagination) — same approach with plain JDBC
-* [jooq-graph-extraction-no-pagination](https://github.com/persistence-graph-extraction/jooq-graph-extraction-no-pagination) — same approach with jOOQ MULTISET
-* [jpa-graph-extraction-pagination](https://github.com/persistence-graph-extraction/jpa-graph-extraction-pagination) — same approach with pagination support
+* [persistence-graph-extraction-jdbc](https://github.com/java-backend-architecture/persistence-graph-extraction-jdbc) — same approach with plain JDBC
+* [persistence-graph-extraction-jooq](https://github.com/java-backend-architecture/persistence-graph-extraction-jooq) — same approach with jOOQ MULTISET
+* [persistence-graph-pagination-jdbc](https://github.com/java-backend-architecture/persistence-graph-pagination-jdbc) — same approach with pagination support
 
 ## Run
 
-```
+```bash
 ./mvnw spring-boot:run
 ```
